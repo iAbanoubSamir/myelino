@@ -50,7 +50,7 @@ features                                  :
 
   - title                                 : Management System
     description                           : A comprehensive system that allows doctors and patients to manage follow-up reports, treatment plans, and medical histories with ease.
-    fontawesome_icon_name                 : user-group
+    fontawesome_icon_name                 : users-cog
 
   - title                                 : Medical Center
     description                           : A dedicated feature providing users with access to the latest medical research, updates, and educational resources.
