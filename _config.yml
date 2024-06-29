@@ -7,7 +7,7 @@ ios_app_country                           : Egypt                               
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : #                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -50,7 +50,7 @@ features                                  :
 
   - title                                 : Management System
     description                           : A comprehensive system that allows doctors and patients to manage follow-up reports, treatment plans, and medical histories with ease.
-    fontawesome_icon_name                 : people-roof
+    fontawesome_icon_name                 : user-group
 
   - title                                 : Medical Center
     description                           : A dedicated feature providing users with access to the latest medical research, updates, and educational resources.
