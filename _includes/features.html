@@ -1,38 +1,21 @@
 <div class="features">
-
-    <div class="features">
-        <br>
-        <br>
-    <div class="video-container" style="text-align: center; margin-bottom: 20px;">
+    <div class="video-container">
         <p>Patient App Demo</p>
-        <br>
-        <video controls style="height: 640px; width: 360px;">
+        <video controls>
             <source src="assets/demos/Patient_Demo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 
-        <br>
-        <br>
-        <br>
-        
-    <div class="video-container" style="text-align: center; margin-bottom: 40px;">
+    <div class="video-container">
         <p>Doctor App Demo</p>
-        <br>
-        <video controls style="height: 640px; width: 360px;">
+        <video controls>
             <source src="assets/demos/Doctor_Demo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-
     {% for feature in site.features %}
-        <br>
-        <br>
     {% if feature.title %}
     <div class="feature">
         <div>
@@ -42,16 +25,10 @@
             </span>
         </div>
         <div class="featureText">
-            <h3>
-                {{ feature.title }}
-            </h3>
-            <p>
-                {{ feature.description }}
-            </p>
+            <h3>{{ feature.title }}</h3>
+            <p>{{ feature.description }}</p>
         </div>
     </div>
     {% endif %}
-
     {% endfor %}
-
 </div>
