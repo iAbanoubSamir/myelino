@@ -1,5 +1,23 @@
 <div class="features">
-    <div class="video-container">
+    <div class="container">
+        <section class="videos">
+            <div class="video-container">
+        <video controls>
+            <source src="assets/demos/Patient_Demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            </div>
+            <div class="video-container">
+        <p>Doctor App Demo</p>
+        <video controls>
+            <source src="assets/demos/Doctor_Demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            </div>
+        </section>
+
+        
+<!--     <div class="video-container">
         <p>Patient App Demo</p>
         <video controls>
             <source src="assets/demos/Patient_Demo.mp4" type="video/mp4">
@@ -13,11 +31,11 @@
             <source src="assets/demos/Doctor_Demo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>
+    </div> -->
 
     {% for feature in site.features %}
     {% if feature.title %}
-    <div class="feature">
+    <section class="features">    
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
@@ -28,7 +46,8 @@
             <h3>{{ feature.title }}</h3>
             <p>{{ feature.description }}</p>
         </div>
-    </div>
+        </section>
     {% endif %}
     {% endfor %}
 </div>
+    </div>
